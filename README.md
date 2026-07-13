@@ -1,18 +1,42 @@
-# React + Vite
+User Directory Application
+A clean, responsive User Directory application built with React and Vite. This project demonstrates state management, API integration, and modern styling using Tailwind CSS v4.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Real-time Search: Quickly filter through users by name as you type.
 
-Currently, two official plugins are available:
+Dynamic Data Fetching: Retrieves a list of users from the JSONPlaceholder API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add New User: A bonus feature that allows you to add custom entries to the list locally without a page refresh.
 
-## React Compiler
+Responsive Design: Built with Tailwind CSS for a professional look on any device.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Tech Stack
+Frontend: React
 
-Note: This will impact Vite dev & build performances.
+Build Tool: Vite
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment/Development: Node.js
+
+Getting Started
+Prerequisites
+Ensure you have Node.js installed on your machine.
+Clone this repository:
+git clone <//github.com/noluMolui/User-Directory-App>
+Navigate into the project folder:
+cd user-directory
+Install the dependencies:
+npm install
+Start the development server:
+npm run dev
+
+What I Learned
+During this project, I strengthened my skills in:
+
+React Hooks: Using useState and useEffect to manage component lifecycles and side effects.
+
+Tailwind CSS v4: Implementing the latest styling standard for efficient, scalable UI development.
+
+Debugging: Solving build-process conflicts between Vite, PostCSS, and modern CSS frameworks.
+
